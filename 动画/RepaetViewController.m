@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.title = @"repeat, ease  and autoreverse";
     
 }
 

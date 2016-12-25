@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "RepaetViewController.h"
+#import "SpringViewController.h"
 @interface HomeViewController () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray *_array;
@@ -24,7 +25,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    _array = @[@"repaet"];
+    _array = @[@"Repaet",@"Spring"];
     
     
 }
@@ -54,6 +55,12 @@
     switch (indexPath.row) {
         case 0: {
             RepaetViewController *controller = [[RepaetViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 1: {
+            SpringViewController *controller = [[SpringViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

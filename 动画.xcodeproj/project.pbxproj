@@ -19,6 +19,8 @@
 		5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C6131E10117D00F6FDF4 /* HomeViewController.xib */; };
 		5E24C6191E10134800F6FDF4 /* RepaetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C6171E10134800F6FDF4 /* RepaetViewController.m */; };
 		5E24C61A1E10134800F6FDF4 /* RepaetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C6181E10134800F6FDF4 /* RepaetViewController.xib */; };
+		5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C61C1E10239800F6FDF4 /* SpringViewController.m */; };
+		5E24C61F1E10239800F6FDF4 /* SpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C61D1E10239800F6FDF4 /* SpringViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		5E24C6161E10134800F6FDF4 /* RepaetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepaetViewController.h; sourceTree = "<group>"; };
 		5E24C6171E10134800F6FDF4 /* RepaetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepaetViewController.m; sourceTree = "<group>"; };
 		5E24C6181E10134800F6FDF4 /* RepaetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepaetViewController.xib; sourceTree = "<group>"; };
+		5E24C61B1E10239800F6FDF4 /* SpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
+		5E24C61C1E10239800F6FDF4 /* SpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
+		5E24C61D1E10239800F6FDF4 /* SpringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpringViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,9 @@
 				5E24C6161E10134800F6FDF4 /* RepaetViewController.h */,
 				5E24C6171E10134800F6FDF4 /* RepaetViewController.m */,
 				5E24C6181E10134800F6FDF4 /* RepaetViewController.xib */,
+				5E24C61B1E10239800F6FDF4 /* SpringViewController.h */,
+				5E24C61C1E10239800F6FDF4 /* SpringViewController.m */,
+				5E24C61D1E10239800F6FDF4 /* SpringViewController.xib */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E24C61F1E10239800F6FDF4 /* SpringViewController.xib in Resources */,
 				5E24C5E81E0AC2E200F6FDF4 /* CABasicAnimationViewController.xib in Resources */,
 				5E24C5DD1E0ABD9B00F6FDF4 /* LaunchScreen.storyboard in Resources */,
 				5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */,
@@ -181,6 +190,7 @@
 				5E24C5E71E0AC2E200F6FDF4 /* CABasicAnimationViewController.m in Sources */,
 				5E24C6191E10134800F6FDF4 /* RepaetViewController.m in Sources */,
 				5E24C5D51E0ABD9B00F6FDF4 /* ViewController.m in Sources */,
+				5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */,
 				5E24C5D21E0ABD9B00F6FDF4 /* AppDelegate.m in Sources */,
 				5E24C6141E10117D00F6FDF4 /* HomeViewController.m in Sources */,
 				5E24C5CF1E0ABD9B00F6FDF4 /* main.m in Sources */,
@@ -340,6 +350,7 @@
 				5E24C5E31E0ABD9B00F6FDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
