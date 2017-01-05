@@ -9,6 +9,9 @@
 #import "HomeViewController.h"
 #import "RepaetViewController.h"
 #import "SpringViewController.h"
+#import "RotationViewController.h"
+#import "HiddenAnimationViewController.h"
+#import "BaseAnimationViewController.h"
 @interface HomeViewController () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray *_array;
@@ -25,7 +28,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    _array = @[@"Repaet",@"Spring"];
+    _array = @[@"Repaet",@"Spring",@"Roration",@"Hidden animation",@"base animation"];
     
     
 }
@@ -61,6 +64,24 @@
             
         case 1: {
             SpringViewController *controller = [[SpringViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 2: {
+            RotationViewController *controller = [[RotationViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 3: {
+            HiddenAnimationViewController *controller = [[HiddenAnimationViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 4: {
+            BaseAnimationViewController *controller = [[BaseAnimationViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

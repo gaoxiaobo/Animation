@@ -21,6 +21,12 @@
 		5E24C61A1E10134800F6FDF4 /* RepaetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C6181E10134800F6FDF4 /* RepaetViewController.xib */; };
 		5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C61C1E10239800F6FDF4 /* SpringViewController.m */; };
 		5E24C61F1E10239800F6FDF4 /* SpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C61D1E10239800F6FDF4 /* SpringViewController.xib */; };
+		5E24C6231E11671900F6FDF4 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C6211E11671900F6FDF4 /* RotationViewController.m */; };
+		5E24C6241E11671900F6FDF4 /* RotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C6221E11671900F6FDF4 /* RotationViewController.xib */; };
+		5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C6261E12B46700F6FDF4 /* HiddenAnimationViewController.m */; };
+		5E24C6291E12B46700F6FDF4 /* HiddenAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C6271E12B46700F6FDF4 /* HiddenAnimationViewController.xib */; };
+		5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C62B1E155E4900F6FDF4 /* BaseAnimationViewController.m */; };
+		5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C62C1E155E4900F6FDF4 /* BaseAnimationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,15 @@
 		5E24C61B1E10239800F6FDF4 /* SpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
 		5E24C61C1E10239800F6FDF4 /* SpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
 		5E24C61D1E10239800F6FDF4 /* SpringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpringViewController.xib; sourceTree = "<group>"; };
+		5E24C6201E11671900F6FDF4 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		5E24C6211E11671900F6FDF4 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		5E24C6221E11671900F6FDF4 /* RotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotationViewController.xib; sourceTree = "<group>"; };
+		5E24C6251E12B46700F6FDF4 /* HiddenAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenAnimationViewController.h; sourceTree = "<group>"; };
+		5E24C6261E12B46700F6FDF4 /* HiddenAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenAnimationViewController.m; sourceTree = "<group>"; };
+		5E24C6271E12B46700F6FDF4 /* HiddenAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HiddenAnimationViewController.xib; sourceTree = "<group>"; };
+		5E24C62A1E155E4900F6FDF4 /* BaseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
+		5E24C62B1E155E4900F6FDF4 /* BaseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
+		5E24C62C1E155E4900F6FDF4 /* BaseAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +114,15 @@
 				5E24C61B1E10239800F6FDF4 /* SpringViewController.h */,
 				5E24C61C1E10239800F6FDF4 /* SpringViewController.m */,
 				5E24C61D1E10239800F6FDF4 /* SpringViewController.xib */,
+				5E24C6201E11671900F6FDF4 /* RotationViewController.h */,
+				5E24C6211E11671900F6FDF4 /* RotationViewController.m */,
+				5E24C6221E11671900F6FDF4 /* RotationViewController.xib */,
+				5E24C6251E12B46700F6FDF4 /* HiddenAnimationViewController.h */,
+				5E24C6261E12B46700F6FDF4 /* HiddenAnimationViewController.m */,
+				5E24C6271E12B46700F6FDF4 /* HiddenAnimationViewController.xib */,
+				5E24C62A1E155E4900F6FDF4 /* BaseAnimationViewController.h */,
+				5E24C62B1E155E4900F6FDF4 /* BaseAnimationViewController.m */,
+				5E24C62C1E155E4900F6FDF4 /* BaseAnimationViewController.xib */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -172,10 +196,13 @@
 			files = (
 				5E24C61F1E10239800F6FDF4 /* SpringViewController.xib in Resources */,
 				5E24C5E81E0AC2E200F6FDF4 /* CABasicAnimationViewController.xib in Resources */,
+				5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */,
+				5E24C6241E11671900F6FDF4 /* RotationViewController.xib in Resources */,
 				5E24C5DD1E0ABD9B00F6FDF4 /* LaunchScreen.storyboard in Resources */,
 				5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */,
 				5E24C5DA1E0ABD9B00F6FDF4 /* Assets.xcassets in Resources */,
 				5E24C5D81E0ABD9B00F6FDF4 /* Main.storyboard in Resources */,
+				5E24C6291E12B46700F6FDF4 /* HiddenAnimationViewController.xib in Resources */,
 				5E24C61A1E10134800F6FDF4 /* RepaetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +216,9 @@
 			files = (
 				5E24C5E71E0AC2E200F6FDF4 /* CABasicAnimationViewController.m in Sources */,
 				5E24C6191E10134800F6FDF4 /* RepaetViewController.m in Sources */,
+				5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */,
+				5E24C6231E11671900F6FDF4 /* RotationViewController.m in Sources */,
+				5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */,
 				5E24C5D51E0ABD9B00F6FDF4 /* ViewController.m in Sources */,
 				5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */,
 				5E24C5D21E0ABD9B00F6FDF4 /* AppDelegate.m in Sources */,
