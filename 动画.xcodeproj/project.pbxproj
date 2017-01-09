@@ -27,6 +27,8 @@
 		5E24C6291E12B46700F6FDF4 /* HiddenAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C6271E12B46700F6FDF4 /* HiddenAnimationViewController.xib */; };
 		5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24C62B1E155E4900F6FDF4 /* BaseAnimationViewController.m */; };
 		5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24C62C1E155E4900F6FDF4 /* BaseAnimationViewController.xib */; };
+		B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */; };
+		B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,9 @@
 		5E24C62A1E155E4900F6FDF4 /* BaseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
 		5E24C62B1E155E4900F6FDF4 /* BaseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
 		5E24C62C1E155E4900F6FDF4 /* BaseAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseAnimationViewController.xib; sourceTree = "<group>"; };
+		B6B465041E236DFB007D7B62 /* AlertViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewAnimationViewController.h; sourceTree = "<group>"; };
+		B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewAnimationViewController.m; sourceTree = "<group>"; };
+		B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				5E24C62A1E155E4900F6FDF4 /* BaseAnimationViewController.h */,
 				5E24C62B1E155E4900F6FDF4 /* BaseAnimationViewController.m */,
 				5E24C62C1E155E4900F6FDF4 /* BaseAnimationViewController.xib */,
+				B6B465041E236DFB007D7B62 /* AlertViewAnimationViewController.h */,
+				B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */,
+				B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 				5E24C6241E11671900F6FDF4 /* RotationViewController.xib in Resources */,
 				5E24C5DD1E0ABD9B00F6FDF4 /* LaunchScreen.storyboard in Resources */,
 				5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */,
+				B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */,
 				5E24C5DA1E0ABD9B00F6FDF4 /* Assets.xcassets in Resources */,
 				5E24C5D81E0ABD9B00F6FDF4 /* Main.storyboard in Resources */,
 				5E24C6291E12B46700F6FDF4 /* HiddenAnimationViewController.xib in Resources */,
@@ -221,6 +230,7 @@
 				5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */,
 				5E24C5D51E0ABD9B00F6FDF4 /* ViewController.m in Sources */,
 				5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */,
+				B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */,
 				5E24C5D21E0ABD9B00F6FDF4 /* AppDelegate.m in Sources */,
 				5E24C6141E10117D00F6FDF4 /* HomeViewController.m in Sources */,
 				5E24C5CF1E0ABD9B00F6FDF4 /* main.m in Sources */,

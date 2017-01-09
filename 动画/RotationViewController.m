@@ -20,15 +20,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"rotation" style:UIBarButtonItemStylePlain target:self action:@selector(change)];
     
+//    self.cat.layer.transform = CATransform3DMakeRotation(10.5, 2.0, 9.0, 2.0);
+//    self.cat.layer.transform = CATransform3DMakeScale(0.1, 0.1, 1.0);
     
+//    self.cat.layer.affineTransform = CGAffineTransformMakeScale(0.2, 0.2);
 }
 
 - (void)change
 {
     [UIView animateWithDuration:5 delay:0.0f options:UIViewAnimationOptionRepeat | UIViewAnimationOptionAutoreverse animations:^{
-       self.cat.layer.transform = CATransform3DMakeRotation(10.5, 2.0, 9.0, 2.0);
+//        self.cat.layer.transform = CATransform3DMakeRotation(0, 0, 0, 0);
+//        self.cat.layer.transform = CATransform3DMakeScale(1.0, 1.0, 1);
+        
+        self.cat.layer.transform = CATransform3DMakeRotation(10.5, 2.0, 9.0, 2.0);
+//        self.cat.layer.affineTransform = CGAffineTransformMakeScale(1, 1);
     } completion:^(BOOL finished) {
         
     }];

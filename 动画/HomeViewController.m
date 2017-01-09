@@ -12,6 +12,7 @@
 #import "RotationViewController.h"
 #import "HiddenAnimationViewController.h"
 #import "BaseAnimationViewController.h"
+#import "AlertViewAnimationViewController.h"
 @interface HomeViewController () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray *_array;
@@ -28,7 +29,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    _array = @[@"Repaet",@"Spring",@"Roration",@"Hidden animation",@"base animation"];
+    _array = @[@"Repaet",@"Spring",@"Roration",@"Hidden animation",@"base animation",@"alertViewAnimation"];
     
     
 }
@@ -82,6 +83,12 @@
             
         case 4: {
             BaseAnimationViewController *controller = [[BaseAnimationViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 5: {
+            AlertViewAnimationViewController *controller = [[AlertViewAnimationViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
