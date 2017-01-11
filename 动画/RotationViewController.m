@@ -34,7 +34,7 @@
     }];
     
     [UIView animateWithDuration:5 delay:0.0f options:UIViewAnimationOptionRepeat | UIViewAnimationOptionAutoreverse animations:^{
-        self.cat2.layer.transform = CATransform3DMakeRotation(M_PI, 1, 1, 0);
+        self.cat2.layer.transform = CATransform3DMakeRotation(M_PI, 0, 0, 1);
     } completion:^(BOOL finished) {
         
     }];

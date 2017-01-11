@@ -9,9 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseAnimationViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyAnimationViewController">
             <connections>
-                <outlet property="myView" destination="gkQ-hZ-oT2" id="WKH-Y7-ccw"/>
+                <outlet property="MyView" destination="BOE-BD-3we" id="S8d-1T-99L"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,19 +20,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkQ-hZ-oT2">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOE-BD-3we">
                     <rect key="frame" x="137.5" y="150" width="100" height="100"/>
-                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.77142256498336792" green="0.9452478289604187" blue="0.78439098596572876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="100" id="C3k-LB-zAR"/>
-                        <constraint firstAttribute="width" constant="100" id="Ppd-PW-eMQ"/>
+                        <constraint firstAttribute="width" constant="100" id="CqW-wu-ILu"/>
+                        <constraint firstAttribute="height" constant="100" id="ZQT-dM-sCc"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="gkQ-hZ-oT2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="4Qo-fg-APj"/>
-                <constraint firstItem="gkQ-hZ-oT2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LHF-lA-cYo"/>
+                <constraint firstItem="BOE-BD-3we" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2vI-EY-vT0"/>
+                <constraint firstItem="BOE-BD-3we" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="Iuk-jG-fsm"/>
             </constraints>
         </view>
     </objects>
