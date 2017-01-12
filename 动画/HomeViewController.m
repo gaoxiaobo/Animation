@@ -12,8 +12,10 @@
 #import "RotationViewController.h"
 #import "HiddenAnimationViewController.h"
 #import "BaseAnimationViewController.h"
-#import "KeyAnimationViewController.h"
 #import "AlertViewAnimationViewController.h"
+#import "AnmationGroupViewController.h"
+#import "KeyAnimationsViewController.h"
+#import "CATransitionViewController.h"
 @interface HomeViewController () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray *_array;
@@ -30,8 +32,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    _array = @[@"Repaet",@"Spring",@"Roration",@"Hidden animation",@"base animation",@"key-animation"];
-    _array = @[@"Repaet",@"Spring",@"Roration",@"Hidden animation",@"base animation",@"alertViewAnimation"];
+    _array = @[@"Repaet",@"Spring",@"Roration",@"Hidden animation",@"base animation",@"AnimationGroup",@"alertViewAnimation",@"keyAnimation",@"CATransition"];
     
     
 }
@@ -90,13 +91,25 @@
             break;
             
         case 5: {
-            KeyAnimationViewController *controller = [[KeyAnimationViewController alloc] init];
+            AnmationGroupViewController *controller = [[AnmationGroupViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
             
-        case 5: {
+        case 6: {
             AlertViewAnimationViewController *controller = [[AlertViewAnimationViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 7: {
+            KeyAnimationsViewController *controller = [[KeyAnimationsViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+            
+        case 8: {
+            CATransitionViewController *controller = [[CATransitionViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

@@ -43,13 +43,13 @@
     
     animation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
     
-    animation.duration = 0.5;
+//    animation.duration = 0.5;
     
-    animation.delegate = self;
+//    animation.delegate = self;
     
-    animation.removedOnCompletion = YES;
-    
-    animation.fillMode = kCAFillModeForwards;
+//    animation.removedOnCompletion = YES;
+//    
+//    animation.fillMode = kCAFillModeForwards;
     
     
     NSMutableArray *values = [NSMutableArray array];
@@ -63,7 +63,28 @@
     
     animation.values = values;
     animation.timingFunction = [CAMediaTimingFunction functionWithName: @"easeInEaseOut"];
-    [self.orange.layer addAnimation:animation forKey:nil];
+    
+    
+    // 旋转
+    CABasicAnimation *rotationx = [CABasicAnimation animationWithKeyPath:@"transform.rotation.x"];
+    [rotationx setFromValue:@(M_PI)];
+    [rotationx setToValue:@(0)];
+    
+    CABasicAnimation *rotationz = [CABasicAnimation animationWithKeyPath:@"transform.rotation.y"];   
+    [rotationz setFromValue:@(M_PI)];
+    [rotationz setToValue:@(0)];
+    
+    CAAnimationGroup *group = [[CAAnimationGroup alloc] init];
+    [group setDuration:0.5];
+    [group setAnimations:@[animation,rotationx,rotationz]];
+    
+    [group setFillMode:kCAFillModeForwards];
+    group.removedOnCompletion = NO;
+    //    [group setAnimations:@[scale]];
+    
+    
+    
+    [self.orange.layer addAnimation:group forKey:nil];
 }
 
 @end
