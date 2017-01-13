@@ -6,10 +6,16 @@
 //  Copyright © 2016年 tianwan. All rights reserved.
 //
 
+#define kcloseMenuView @"closeMenuView"
+
 #import "AppDelegate.h"
 #import "CABasicAnimationViewController.h"
 #import "HomeViewController.h"
-@interface AppDelegate ()
+#import "MenuViewController.h"
+@interface AppDelegate () <UIGestureRecognizerDelegate>
+{
+    CGPoint _beginPoint;
+}
 
 @end
 
@@ -20,7 +26,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[HomeViewController new]];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[MenuViewController new]];
     
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
@@ -29,6 +35,21 @@
     return YES;
     
     
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    _beginPoint = [[touches anyObject] locationInView:self.window];
+}
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    CGPoint point = [[touches anyObject] locationInView:self.window];
+    CGFloat deltaX = point.x - _beginPoint.x;
+    
+    if (deltaX < -40) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:kcloseMenuView object:nil];
+    }
 }
 
 

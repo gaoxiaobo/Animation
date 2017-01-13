@@ -35,6 +35,21 @@
 		B60BE6DA1E272257006DDB89 /* KeyAnimationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6D81E272257006DDB89 /* KeyAnimationsViewController.xib */; };
 		B60BE6DE1E276C8C006DDB89 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6DC1E276C8C006DDB89 /* CATransitionViewController.m */; };
 		B60BE6DF1E276C8C006DDB89 /* CATransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6DD1E276C8C006DDB89 /* CATransitionViewController.xib */; };
+		B60BE6E41E286E62006DDB89 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6E21E286E62006DDB89 /* MenuViewController.m */; };
+		B60BE6E51E286E62006DDB89 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6E31E286E62006DDB89 /* MenuViewController.xib */; };
+		B60BE6E91E286F27006DDB89 /* Quart2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6E71E286F27006DDB89 /* Quart2DViewController.m */; };
+		B60BE6EA1E286F27006DDB89 /* Quart2DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6E81E286F27006DDB89 /* Quart2DViewController.xib */; };
+		B60BE6EE1E287C2F006DDB89 /* BaseDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6EC1E287C2F006DDB89 /* BaseDrawViewController.m */; };
+		B60BE6EF1E287C2F006DDB89 /* BaseDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6ED1E287C2F006DDB89 /* BaseDrawViewController.xib */; };
+		B60BE6F21E287CC5006DDB89 /* BaseDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6F11E287CC5006DDB89 /* BaseDrawView.m */; };
+		B60BE6F71E28B116006DDB89 /* TouchMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6F51E28B116006DDB89 /* TouchMenuViewController.m */; };
+		B60BE6F81E28B116006DDB89 /* TouchMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6F61E28B116006DDB89 /* TouchMenuViewController.xib */; };
+		B60BE6FC1E28B1D0006DDB89 /* TouchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6FA1E28B1D0006DDB89 /* TouchBaseViewController.m */; };
+		B60BE6FD1E28B1D0006DDB89 /* TouchBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE6FB1E28B1D0006DDB89 /* TouchBaseViewController.xib */; };
+		B60BE7011E28BDAD006DDB89 /* MultiTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE6FF1E28BDAD006DDB89 /* MultiTouchViewController.m */; };
+		B60BE7021E28BDAD006DDB89 /* MultiTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7001E28BDAD006DDB89 /* MultiTouchViewController.xib */; };
+		B60BE7061E28D189006DDB89 /* RightSwipeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */; };
+		B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */; };
 		B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */; };
 		B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */; };
 /* End PBXBuildFile section */
@@ -82,6 +97,29 @@
 		B60BE6DB1E276C8C006DDB89 /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
 		B60BE6DC1E276C8C006DDB89 /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
 		B60BE6DD1E276C8C006DDB89 /* CATransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATransitionViewController.xib; sourceTree = "<group>"; };
+		B60BE6E11E286E62006DDB89 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		B60BE6E21E286E62006DDB89 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		B60BE6E31E286E62006DDB89 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		B60BE6E61E286F27006DDB89 /* Quart2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quart2DViewController.h; sourceTree = "<group>"; };
+		B60BE6E71E286F27006DDB89 /* Quart2DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quart2DViewController.m; sourceTree = "<group>"; };
+		B60BE6E81E286F27006DDB89 /* Quart2DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Quart2DViewController.xib; sourceTree = "<group>"; };
+		B60BE6EB1E287C2F006DDB89 /* BaseDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawViewController.h; sourceTree = "<group>"; };
+		B60BE6EC1E287C2F006DDB89 /* BaseDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrawViewController.m; sourceTree = "<group>"; };
+		B60BE6ED1E287C2F006DDB89 /* BaseDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseDrawViewController.xib; sourceTree = "<group>"; };
+		B60BE6F01E287CC5006DDB89 /* BaseDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawView.h; sourceTree = "<group>"; };
+		B60BE6F11E287CC5006DDB89 /* BaseDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrawView.m; sourceTree = "<group>"; };
+		B60BE6F41E28B116006DDB89 /* TouchMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchMenuViewController.h; sourceTree = "<group>"; };
+		B60BE6F51E28B116006DDB89 /* TouchMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchMenuViewController.m; sourceTree = "<group>"; };
+		B60BE6F61E28B116006DDB89 /* TouchMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchMenuViewController.xib; sourceTree = "<group>"; };
+		B60BE6F91E28B1D0006DDB89 /* TouchBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchBaseViewController.h; sourceTree = "<group>"; };
+		B60BE6FA1E28B1D0006DDB89 /* TouchBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchBaseViewController.m; sourceTree = "<group>"; };
+		B60BE6FB1E28B1D0006DDB89 /* TouchBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchBaseViewController.xib; sourceTree = "<group>"; };
+		B60BE6FE1E28BDAD006DDB89 /* MultiTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTouchViewController.h; sourceTree = "<group>"; };
+		B60BE6FF1E28BDAD006DDB89 /* MultiTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTouchViewController.m; sourceTree = "<group>"; };
+		B60BE7001E28BDAD006DDB89 /* MultiTouchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiTouchViewController.xib; sourceTree = "<group>"; };
+		B60BE7031E28D189006DDB89 /* RightSwipeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSwipeMenuViewController.h; sourceTree = "<group>"; };
+		B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSwipeMenuViewController.m; sourceTree = "<group>"; };
+		B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightSwipeMenuViewController.xib; sourceTree = "<group>"; };
 		B6B465041E236DFB007D7B62 /* AlertViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewAnimationViewController.h; sourceTree = "<group>"; };
 		B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewAnimationViewController.m; sourceTree = "<group>"; };
 		B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewAnimationViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +155,8 @@
 		5E24C5CC1E0ABD9B00F6FDF4 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				B60BE6F31E28B0F3006DDB89 /* Touches */,
+				B60BE6E01E286E0F006DDB89 /* Quart2D */,
 				5E24C5D01E0ABD9B00F6FDF4 /* AppDelegate.h */,
 				5E24C5D11E0ABD9B00F6FDF4 /* AppDelegate.m */,
 				5E24C5D31E0ABD9B00F6FDF4 /* ViewController.h */,
@@ -169,6 +209,43 @@
 				5E24C5CE1E0ABD9B00F6FDF4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60BE6E01E286E0F006DDB89 /* Quart2D */ = {
+			isa = PBXGroup;
+			children = (
+				B60BE6E11E286E62006DDB89 /* MenuViewController.h */,
+				B60BE6E21E286E62006DDB89 /* MenuViewController.m */,
+				B60BE6E31E286E62006DDB89 /* MenuViewController.xib */,
+				B60BE6E61E286F27006DDB89 /* Quart2DViewController.h */,
+				B60BE6E71E286F27006DDB89 /* Quart2DViewController.m */,
+				B60BE6E81E286F27006DDB89 /* Quart2DViewController.xib */,
+				B60BE6EB1E287C2F006DDB89 /* BaseDrawViewController.h */,
+				B60BE6EC1E287C2F006DDB89 /* BaseDrawViewController.m */,
+				B60BE6ED1E287C2F006DDB89 /* BaseDrawViewController.xib */,
+				B60BE6F01E287CC5006DDB89 /* BaseDrawView.h */,
+				B60BE6F11E287CC5006DDB89 /* BaseDrawView.m */,
+			);
+			path = Quart2D;
+			sourceTree = "<group>";
+		};
+		B60BE6F31E28B0F3006DDB89 /* Touches */ = {
+			isa = PBXGroup;
+			children = (
+				B60BE6F41E28B116006DDB89 /* TouchMenuViewController.h */,
+				B60BE6F51E28B116006DDB89 /* TouchMenuViewController.m */,
+				B60BE6F61E28B116006DDB89 /* TouchMenuViewController.xib */,
+				B60BE6F91E28B1D0006DDB89 /* TouchBaseViewController.h */,
+				B60BE6FA1E28B1D0006DDB89 /* TouchBaseViewController.m */,
+				B60BE6FB1E28B1D0006DDB89 /* TouchBaseViewController.xib */,
+				B60BE6FE1E28BDAD006DDB89 /* MultiTouchViewController.h */,
+				B60BE6FF1E28BDAD006DDB89 /* MultiTouchViewController.m */,
+				B60BE7001E28BDAD006DDB89 /* MultiTouchViewController.xib */,
+				B60BE7031E28D189006DDB89 /* RightSwipeMenuViewController.h */,
+				B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */,
+				B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */,
+			);
+			path = Touches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,17 +307,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60BE7021E28BDAD006DDB89 /* MultiTouchViewController.xib in Resources */,
 				B60BE6DF1E276C8C006DDB89 /* CATransitionViewController.xib in Resources */,
+				B60BE6F81E28B116006DDB89 /* TouchMenuViewController.xib in Resources */,
 				5E24C61F1E10239800F6FDF4 /* SpringViewController.xib in Resources */,
 				5E24C5E81E0AC2E200F6FDF4 /* CABasicAnimationViewController.xib in Resources */,
 				5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */,
 				B60BE6D51E272169006DDB89 /* AnmationGroupViewController.xib in Resources */,
+				B60BE6EF1E287C2F006DDB89 /* BaseDrawViewController.xib in Resources */,
+				B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */,
 				5E24C6241E11671900F6FDF4 /* RotationViewController.xib in Resources */,
 				5E24C5DD1E0ABD9B00F6FDF4 /* LaunchScreen.storyboard in Resources */,
+				B60BE6FD1E28B1D0006DDB89 /* TouchBaseViewController.xib in Resources */,
 				5E24C6331E1FEE9400F6FDF4 /* KeyAnimationViewController.xib in Resources */,
 				5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */,
 				B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */,
+				B60BE6EA1E286F27006DDB89 /* Quart2DViewController.xib in Resources */,
 				B60BE6DA1E272257006DDB89 /* KeyAnimationsViewController.xib in Resources */,
+				B60BE6E51E286E62006DDB89 /* MenuViewController.xib in Resources */,
 				5E24C5DA1E0ABD9B00F6FDF4 /* Assets.xcassets in Resources */,
 				5E24C5D81E0ABD9B00F6FDF4 /* Main.storyboard in Resources */,
 				5E24C6291E12B46700F6FDF4 /* HiddenAnimationViewController.xib in Resources */,
@@ -255,19 +339,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60BE7061E28D189006DDB89 /* RightSwipeMenuViewController.m in Sources */,
 				B60BE6D41E272169006DDB89 /* AnmationGroupViewController.m in Sources */,
 				5E24C5E71E0AC2E200F6FDF4 /* CABasicAnimationViewController.m in Sources */,
 				5E24C6191E10134800F6FDF4 /* RepaetViewController.m in Sources */,
+				B60BE6E41E286E62006DDB89 /* MenuViewController.m in Sources */,
 				5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */,
+				B60BE6F21E287CC5006DDB89 /* BaseDrawView.m in Sources */,
 				5E24C6321E1FEE9400F6FDF4 /* KeyAnimationViewController.m in Sources */,
+				B60BE6F71E28B116006DDB89 /* TouchMenuViewController.m in Sources */,
+				B60BE7011E28BDAD006DDB89 /* MultiTouchViewController.m in Sources */,
 				B60BE6D91E272257006DDB89 /* KeyAnimationsViewController.m in Sources */,
+				B60BE6EE1E287C2F006DDB89 /* BaseDrawViewController.m in Sources */,
 				5E24C6231E11671900F6FDF4 /* RotationViewController.m in Sources */,
 				5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */,
+				B60BE6FC1E28B1D0006DDB89 /* TouchBaseViewController.m in Sources */,
 				5E24C5D51E0ABD9B00F6FDF4 /* ViewController.m in Sources */,
 				5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */,
 				B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */,
 				5E24C5D21E0ABD9B00F6FDF4 /* AppDelegate.m in Sources */,
 				5E24C6141E10117D00F6FDF4 /* HomeViewController.m in Sources */,
+				B60BE6E91E286F27006DDB89 /* Quart2DViewController.m in Sources */,
 				5E24C5CF1E0ABD9B00F6FDF4 /* main.m in Sources */,
 				B60BE6DE1E276C8C006DDB89 /* CATransitionViewController.m in Sources */,
 			);
@@ -389,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG8E34U3HZ;
 				INFOPLIST_FILE = "动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tianwan.www.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG8E34U3HZ;
 				INFOPLIST_FILE = "动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tianwan.www.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";

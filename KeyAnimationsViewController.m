@@ -87,6 +87,8 @@
     }
     [array addObject:[NSValue valueWithCGPoint:to]];
     [ani setValues:array];
+    ani.fillMode = kCAFillModeForwards;
+    ani.removedOnCompletion = NO;
     [self.MyView.layer addAnimation:ani forKey:nil];
 }
 
