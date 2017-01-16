@@ -50,6 +50,12 @@
 		B60BE7021E28BDAD006DDB89 /* MultiTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7001E28BDAD006DDB89 /* MultiTouchViewController.xib */; };
 		B60BE7061E28D189006DDB89 /* RightSwipeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */; };
 		B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */; };
+		B66FF89C1E2CBC06002716CA /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF89A1E2CBC06002716CA /* DynamicViewController.m */; };
+		B66FF89D1E2CBC06002716CA /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */; };
+		B66FF8A11E2CBC20002716CA /* DynamicBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF89F1E2CBC20002716CA /* DynamicBaseViewController.m */; };
+		B66FF8A21E2CBC20002716CA /* DynamicBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8A01E2CBC20002716CA /* DynamicBaseViewController.xib */; };
+		B66FF8A61E2CCBE2002716CA /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8A41E2CCBE2002716CA /* SnapViewController.m */; };
+		B66FF8A71E2CCBE2002716CA /* SnapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8A51E2CCBE2002716CA /* SnapViewController.xib */; };
 		B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */; };
 		B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */; };
 /* End PBXBuildFile section */
@@ -120,6 +126,15 @@
 		B60BE7031E28D189006DDB89 /* RightSwipeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSwipeMenuViewController.h; sourceTree = "<group>"; };
 		B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSwipeMenuViewController.m; sourceTree = "<group>"; };
 		B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightSwipeMenuViewController.xib; sourceTree = "<group>"; };
+		B66FF8991E2CBC06002716CA /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		B66FF89A1E2CBC06002716CA /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
+		B66FF89E1E2CBC20002716CA /* DynamicBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicBaseViewController.h; sourceTree = "<group>"; };
+		B66FF89F1E2CBC20002716CA /* DynamicBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicBaseViewController.m; sourceTree = "<group>"; };
+		B66FF8A01E2CBC20002716CA /* DynamicBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicBaseViewController.xib; sourceTree = "<group>"; };
+		B66FF8A31E2CCBE2002716CA /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		B66FF8A41E2CCBE2002716CA /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
+		B66FF8A51E2CCBE2002716CA /* SnapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapViewController.xib; sourceTree = "<group>"; };
 		B6B465041E236DFB007D7B62 /* AlertViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewAnimationViewController.h; sourceTree = "<group>"; };
 		B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewAnimationViewController.m; sourceTree = "<group>"; };
 		B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewAnimationViewController.xib; sourceTree = "<group>"; };
@@ -155,6 +170,7 @@
 		5E24C5CC1E0ABD9B00F6FDF4 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				B66FF87F1E2CAEF0002716CA /* UIDynamic */,
 				B60BE6F31E28B0F3006DDB89 /* Touches */,
 				B60BE6E01E286E0F006DDB89 /* Quart2D */,
 				5E24C5D01E0ABD9B00F6FDF4 /* AppDelegate.h */,
@@ -248,6 +264,22 @@
 			path = Touches;
 			sourceTree = "<group>";
 		};
+		B66FF87F1E2CAEF0002716CA /* UIDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				B66FF8991E2CBC06002716CA /* DynamicViewController.h */,
+				B66FF89A1E2CBC06002716CA /* DynamicViewController.m */,
+				B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */,
+				B66FF89E1E2CBC20002716CA /* DynamicBaseViewController.h */,
+				B66FF89F1E2CBC20002716CA /* DynamicBaseViewController.m */,
+				B66FF8A01E2CBC20002716CA /* DynamicBaseViewController.xib */,
+				B66FF8A31E2CCBE2002716CA /* SnapViewController.h */,
+				B66FF8A41E2CCBE2002716CA /* SnapViewController.m */,
+				B66FF8A51E2CCBE2002716CA /* SnapViewController.xib */,
+			);
+			path = UIDynamic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66FF89D1E2CBC06002716CA /* DynamicViewController.xib in Resources */,
+				B66FF8A71E2CCBE2002716CA /* SnapViewController.xib in Resources */,
 				B60BE7021E28BDAD006DDB89 /* MultiTouchViewController.xib in Resources */,
 				B60BE6DF1E276C8C006DDB89 /* CATransitionViewController.xib in Resources */,
 				B60BE6F81E28B116006DDB89 /* TouchMenuViewController.xib in Resources */,
@@ -315,6 +349,7 @@
 				5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */,
 				B60BE6D51E272169006DDB89 /* AnmationGroupViewController.xib in Resources */,
 				B60BE6EF1E287C2F006DDB89 /* BaseDrawViewController.xib in Resources */,
+				B66FF8A21E2CBC20002716CA /* DynamicBaseViewController.xib in Resources */,
 				B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */,
 				5E24C6241E11671900F6FDF4 /* RotationViewController.xib in Resources */,
 				5E24C5DD1E0ABD9B00F6FDF4 /* LaunchScreen.storyboard in Resources */,
@@ -343,6 +378,7 @@
 				B60BE6D41E272169006DDB89 /* AnmationGroupViewController.m in Sources */,
 				5E24C5E71E0AC2E200F6FDF4 /* CABasicAnimationViewController.m in Sources */,
 				5E24C6191E10134800F6FDF4 /* RepaetViewController.m in Sources */,
+				B66FF8A61E2CCBE2002716CA /* SnapViewController.m in Sources */,
 				B60BE6E41E286E62006DDB89 /* MenuViewController.m in Sources */,
 				5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */,
 				B60BE6F21E287CC5006DDB89 /* BaseDrawView.m in Sources */,
@@ -350,8 +386,10 @@
 				B60BE6F71E28B116006DDB89 /* TouchMenuViewController.m in Sources */,
 				B60BE7011E28BDAD006DDB89 /* MultiTouchViewController.m in Sources */,
 				B60BE6D91E272257006DDB89 /* KeyAnimationsViewController.m in Sources */,
+				B66FF8A11E2CBC20002716CA /* DynamicBaseViewController.m in Sources */,
 				B60BE6EE1E287C2F006DDB89 /* BaseDrawViewController.m in Sources */,
 				5E24C6231E11671900F6FDF4 /* RotationViewController.m in Sources */,
+				B66FF89C1E2CBC06002716CA /* DynamicViewController.m in Sources */,
 				5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */,
 				B60BE6FC1E28B1D0006DDB89 /* TouchBaseViewController.m in Sources */,
 				5E24C5D51E0ABD9B00F6FDF4 /* ViewController.m in Sources */,
