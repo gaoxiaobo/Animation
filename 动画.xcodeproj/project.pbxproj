@@ -56,6 +56,14 @@
 		B66FF8A21E2CBC20002716CA /* DynamicBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8A01E2CBC20002716CA /* DynamicBaseViewController.xib */; };
 		B66FF8A61E2CCBE2002716CA /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8A41E2CCBE2002716CA /* SnapViewController.m */; };
 		B66FF8A71E2CCBE2002716CA /* SnapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8A51E2CCBE2002716CA /* SnapViewController.xib */; };
+		B66FF8AB1E2DBA6E002716CA /* AttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8A91E2DBA6E002716CA /* AttachmentViewController.m */; };
+		B66FF8AC1E2DBA6E002716CA /* AttachmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8AA1E2DBA6E002716CA /* AttachmentViewController.xib */; };
+		B66FF8B01E2DC93A002716CA /* SpringAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8AE1E2DC93A002716CA /* SpringAttachmentViewController.m */; };
+		B66FF8B11E2DC93A002716CA /* SpringAttachmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8AF1E2DC93A002716CA /* SpringAttachmentViewController.xib */; };
+		B66FF8DE1E30B428002716CA /* TableViewMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8DC1E30B428002716CA /* TableViewMenuController.m */; };
+		B66FF8DF1E30B428002716CA /* TableViewMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8DD1E30B428002716CA /* TableViewMenuController.xib */; };
+		B66FF8E31E30C7A2002716CA /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8E11E30C7A2002716CA /* CustomTableViewCell.m */; };
+		B66FF8E41E30C7A2002716CA /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8E21E30C7A2002716CA /* CustomTableViewCell.xib */; };
 		B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */; };
 		B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */; };
 /* End PBXBuildFile section */
@@ -135,6 +143,18 @@
 		B66FF8A31E2CCBE2002716CA /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
 		B66FF8A41E2CCBE2002716CA /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
 		B66FF8A51E2CCBE2002716CA /* SnapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapViewController.xib; sourceTree = "<group>"; };
+		B66FF8A81E2DBA6E002716CA /* AttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentViewController.h; sourceTree = "<group>"; };
+		B66FF8A91E2DBA6E002716CA /* AttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentViewController.m; sourceTree = "<group>"; };
+		B66FF8AA1E2DBA6E002716CA /* AttachmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttachmentViewController.xib; sourceTree = "<group>"; };
+		B66FF8AD1E2DC93A002716CA /* SpringAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAttachmentViewController.h; sourceTree = "<group>"; };
+		B66FF8AE1E2DC93A002716CA /* SpringAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAttachmentViewController.m; sourceTree = "<group>"; };
+		B66FF8AF1E2DC93A002716CA /* SpringAttachmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpringAttachmentViewController.xib; sourceTree = "<group>"; };
+		B66FF8DB1E30B428002716CA /* TableViewMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewMenuController.h; sourceTree = "<group>"; };
+		B66FF8DC1E30B428002716CA /* TableViewMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewMenuController.m; sourceTree = "<group>"; };
+		B66FF8DD1E30B428002716CA /* TableViewMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewMenuController.xib; sourceTree = "<group>"; };
+		B66FF8E01E30C7A2002716CA /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		B66FF8E11E30C7A2002716CA /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		B66FF8E21E30C7A2002716CA /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		B6B465041E236DFB007D7B62 /* AlertViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewAnimationViewController.h; sourceTree = "<group>"; };
 		B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewAnimationViewController.m; sourceTree = "<group>"; };
 		B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewAnimationViewController.xib; sourceTree = "<group>"; };
@@ -170,6 +190,7 @@
 		5E24C5CC1E0ABD9B00F6FDF4 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				B66FF8DA1E30B3DA002716CA /* TableView */,
 				B66FF87F1E2CAEF0002716CA /* UIDynamic */,
 				B60BE6F31E28B0F3006DDB89 /* Touches */,
 				B60BE6E01E286E0F006DDB89 /* Quart2D */,
@@ -276,8 +297,27 @@
 				B66FF8A31E2CCBE2002716CA /* SnapViewController.h */,
 				B66FF8A41E2CCBE2002716CA /* SnapViewController.m */,
 				B66FF8A51E2CCBE2002716CA /* SnapViewController.xib */,
+				B66FF8A81E2DBA6E002716CA /* AttachmentViewController.h */,
+				B66FF8A91E2DBA6E002716CA /* AttachmentViewController.m */,
+				B66FF8AA1E2DBA6E002716CA /* AttachmentViewController.xib */,
+				B66FF8AD1E2DC93A002716CA /* SpringAttachmentViewController.h */,
+				B66FF8AE1E2DC93A002716CA /* SpringAttachmentViewController.m */,
+				B66FF8AF1E2DC93A002716CA /* SpringAttachmentViewController.xib */,
 			);
 			path = UIDynamic;
+			sourceTree = "<group>";
+		};
+		B66FF8DA1E30B3DA002716CA /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B66FF8DB1E30B428002716CA /* TableViewMenuController.h */,
+				B66FF8DC1E30B428002716CA /* TableViewMenuController.m */,
+				B66FF8DD1E30B428002716CA /* TableViewMenuController.xib */,
+				B66FF8E01E30C7A2002716CA /* CustomTableViewCell.h */,
+				B66FF8E11E30C7A2002716CA /* CustomTableViewCell.m */,
+				B66FF8E21E30C7A2002716CA /* CustomTableViewCell.xib */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +381,7 @@
 			files = (
 				B66FF89D1E2CBC06002716CA /* DynamicViewController.xib in Resources */,
 				B66FF8A71E2CCBE2002716CA /* SnapViewController.xib in Resources */,
+				B66FF8B11E2DC93A002716CA /* SpringAttachmentViewController.xib in Resources */,
 				B60BE7021E28BDAD006DDB89 /* MultiTouchViewController.xib in Resources */,
 				B60BE6DF1E276C8C006DDB89 /* CATransitionViewController.xib in Resources */,
 				B60BE6F81E28B116006DDB89 /* TouchMenuViewController.xib in Resources */,
@@ -348,8 +389,10 @@
 				5E24C5E81E0AC2E200F6FDF4 /* CABasicAnimationViewController.xib in Resources */,
 				5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */,
 				B60BE6D51E272169006DDB89 /* AnmationGroupViewController.xib in Resources */,
+				B66FF8E41E30C7A2002716CA /* CustomTableViewCell.xib in Resources */,
 				B60BE6EF1E287C2F006DDB89 /* BaseDrawViewController.xib in Resources */,
 				B66FF8A21E2CBC20002716CA /* DynamicBaseViewController.xib in Resources */,
+				B66FF8AC1E2DBA6E002716CA /* AttachmentViewController.xib in Resources */,
 				B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */,
 				5E24C6241E11671900F6FDF4 /* RotationViewController.xib in Resources */,
 				5E24C5DD1E0ABD9B00F6FDF4 /* LaunchScreen.storyboard in Resources */,
@@ -357,6 +400,7 @@
 				5E24C6331E1FEE9400F6FDF4 /* KeyAnimationViewController.xib in Resources */,
 				5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */,
 				B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */,
+				B66FF8DF1E30B428002716CA /* TableViewMenuController.xib in Resources */,
 				B60BE6EA1E286F27006DDB89 /* Quart2DViewController.xib in Resources */,
 				B60BE6DA1E272257006DDB89 /* KeyAnimationsViewController.xib in Resources */,
 				B60BE6E51E286E62006DDB89 /* MenuViewController.xib in Resources */,
@@ -374,12 +418,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66FF8B01E2DC93A002716CA /* SpringAttachmentViewController.m in Sources */,
+				B66FF8DE1E30B428002716CA /* TableViewMenuController.m in Sources */,
 				B60BE7061E28D189006DDB89 /* RightSwipeMenuViewController.m in Sources */,
 				B60BE6D41E272169006DDB89 /* AnmationGroupViewController.m in Sources */,
 				5E24C5E71E0AC2E200F6FDF4 /* CABasicAnimationViewController.m in Sources */,
 				5E24C6191E10134800F6FDF4 /* RepaetViewController.m in Sources */,
 				B66FF8A61E2CCBE2002716CA /* SnapViewController.m in Sources */,
 				B60BE6E41E286E62006DDB89 /* MenuViewController.m in Sources */,
+				B66FF8E31E30C7A2002716CA /* CustomTableViewCell.m in Sources */,
 				5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */,
 				B60BE6F21E287CC5006DDB89 /* BaseDrawView.m in Sources */,
 				5E24C6321E1FEE9400F6FDF4 /* KeyAnimationViewController.m in Sources */,
@@ -396,6 +443,7 @@
 				5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */,
 				B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */,
 				5E24C5D21E0ABD9B00F6FDF4 /* AppDelegate.m in Sources */,
+				B66FF8AB1E2DBA6E002716CA /* AttachmentViewController.m in Sources */,
 				5E24C6141E10117D00F6FDF4 /* HomeViewController.m in Sources */,
 				B60BE6E91E286F27006DDB89 /* Quart2DViewController.m in Sources */,
 				5E24C5CF1E0ABD9B00F6FDF4 /* main.m in Sources */,

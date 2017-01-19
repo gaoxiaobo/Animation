@@ -11,6 +11,7 @@
 #import "Quart2DViewController.h"
 #import "TouchMenuViewController.h"
 #import "DynamicViewController.h"
+#import "TableViewMenuController.h"
 @interface MenuViewController () <UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *_menu;
@@ -23,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _menu = @[@"Animation",@"Quart2D",@"Touches",@"UIDynamic"];
+    _menu = @[@"Animation",@"Quart2D",@"Touches",@"UIDynamic",@"tableView"];
 }
 
 
@@ -57,8 +58,11 @@
     }else if (indexPath.row == 2){
         TouchMenuViewController *controller = [[TouchMenuViewController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
-    }else {
+    }else if (indexPath.row == 3){
         DynamicViewController *controller = [[DynamicViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 4) {
+        TableViewMenuController *controller = [[TableViewMenuController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }
 }

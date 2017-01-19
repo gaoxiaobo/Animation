@@ -9,6 +9,8 @@
 #import "DynamicViewController.h"
 #import "DynamicBaseViewController.h"
 #import "SnapViewController.h"
+#import "AttachmentViewController.h"
+#import "SpringAttachmentViewController.h"
 @interface DynamicViewController () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray *_menu;
@@ -22,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Dynamic";
-    _menu = @[@"DynamicBase",@"Snap"];
+    _menu = @[@"DynamicBase",@"Snap",@"Attachment",@"springAttachment"];
 }
 
 
@@ -52,6 +54,12 @@
         [self.navigationController pushViewController:controller animated:YES];
     }else if (indexPath.row == 1) {
         SnapViewController *controller = [[SnapViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 2) {
+        AttachmentViewController *controller = [[AttachmentViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 3) {
+        SpringAttachmentViewController *controller = [[SpringAttachmentViewController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }
 }

@@ -43,13 +43,13 @@
     
     animation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
     
-//    animation.duration = 0.5;
+    animation.duration = 0.5;
     
-//    animation.delegate = self;
+    animation.delegate = self;
     
-//    animation.removedOnCompletion = YES;
-//    
-//    animation.fillMode = kCAFillModeForwards;
+    animation.removedOnCompletion = YES;
+    
+    animation.fillMode = kCAFillModeForwards;
     
     
     NSMutableArray *values = [NSMutableArray array];
@@ -84,7 +84,7 @@
     
     
     
-    [self.orange.layer addAnimation:group forKey:nil];
+    [self.orange.layer addAnimation:animation forKey:nil];
 }
 
 @end
