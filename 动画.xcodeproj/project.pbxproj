@@ -50,6 +50,8 @@
 		B60BE7021E28BDAD006DDB89 /* MultiTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7001E28BDAD006DDB89 /* MultiTouchViewController.xib */; };
 		B60BE7061E28D189006DDB89 /* RightSwipeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */; };
 		B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */; };
+		B620DFC71E4AB64600D3175A /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B620DFC51E4AB64600D3175A /* ScrollViewViewController.m */; };
+		B620DFC81E4AB64600D3175A /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B620DFC61E4AB64600D3175A /* ScrollViewViewController.xib */; };
 		B66FF89C1E2CBC06002716CA /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF89A1E2CBC06002716CA /* DynamicViewController.m */; };
 		B66FF89D1E2CBC06002716CA /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */; };
 		B66FF8A11E2CBC20002716CA /* DynamicBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF89F1E2CBC20002716CA /* DynamicBaseViewController.m */; };
@@ -64,6 +66,8 @@
 		B66FF8DF1E30B428002716CA /* TableViewMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8DD1E30B428002716CA /* TableViewMenuController.xib */; };
 		B66FF8E31E30C7A2002716CA /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF8E11E30C7A2002716CA /* CustomTableViewCell.m */; };
 		B66FF8E41E30C7A2002716CA /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF8E21E30C7A2002716CA /* CustomTableViewCell.xib */; };
+		B66FF90C1E346267002716CA /* TableViewEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF90A1E346264002716CA /* TableViewEditViewController.m */; };
+		B66FF90D1E346268002716CA /* TableViewEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF90B1E346264002716CA /* TableViewEditViewController.xib */; };
 		B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */; };
 		B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */; };
 /* End PBXBuildFile section */
@@ -134,6 +138,9 @@
 		B60BE7031E28D189006DDB89 /* RightSwipeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSwipeMenuViewController.h; sourceTree = "<group>"; };
 		B60BE7041E28D189006DDB89 /* RightSwipeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSwipeMenuViewController.m; sourceTree = "<group>"; };
 		B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightSwipeMenuViewController.xib; sourceTree = "<group>"; };
+		B620DFC41E4AB64600D3175A /* ScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
+		B620DFC51E4AB64600D3175A /* ScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
+		B620DFC61E4AB64600D3175A /* ScrollViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
 		B66FF8991E2CBC06002716CA /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		B66FF89A1E2CBC06002716CA /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
@@ -155,6 +162,9 @@
 		B66FF8E01E30C7A2002716CA /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		B66FF8E11E30C7A2002716CA /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		B66FF8E21E30C7A2002716CA /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B66FF9091E346264002716CA /* TableViewEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewEditViewController.h; sourceTree = "<group>"; };
+		B66FF90A1E346264002716CA /* TableViewEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewEditViewController.m; sourceTree = "<group>"; };
+		B66FF90B1E346264002716CA /* TableViewEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewEditViewController.xib; sourceTree = "<group>"; };
 		B6B465041E236DFB007D7B62 /* AlertViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewAnimationViewController.h; sourceTree = "<group>"; };
 		B6B465051E236DFB007D7B62 /* AlertViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewAnimationViewController.m; sourceTree = "<group>"; };
 		B6B465061E236DFB007D7B62 /* AlertViewAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewAnimationViewController.xib; sourceTree = "<group>"; };
@@ -190,6 +200,7 @@
 		5E24C5CC1E0ABD9B00F6FDF4 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				B620DFC31E4AB61B00D3175A /* ScrollView */,
 				B66FF8DA1E30B3DA002716CA /* TableView */,
 				B66FF87F1E2CAEF0002716CA /* UIDynamic */,
 				B60BE6F31E28B0F3006DDB89 /* Touches */,
@@ -285,6 +296,16 @@
 			path = Touches;
 			sourceTree = "<group>";
 		};
+		B620DFC31E4AB61B00D3175A /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B620DFC41E4AB64600D3175A /* ScrollViewViewController.h */,
+				B620DFC51E4AB64600D3175A /* ScrollViewViewController.m */,
+				B620DFC61E4AB64600D3175A /* ScrollViewViewController.xib */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		B66FF87F1E2CAEF0002716CA /* UIDynamic */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +337,9 @@
 				B66FF8E01E30C7A2002716CA /* CustomTableViewCell.h */,
 				B66FF8E11E30C7A2002716CA /* CustomTableViewCell.m */,
 				B66FF8E21E30C7A2002716CA /* CustomTableViewCell.xib */,
+				B66FF9091E346264002716CA /* TableViewEditViewController.h */,
+				B66FF90A1E346264002716CA /* TableViewEditViewController.m */,
+				B66FF90B1E346264002716CA /* TableViewEditViewController.xib */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -391,6 +415,7 @@
 				B60BE6D51E272169006DDB89 /* AnmationGroupViewController.xib in Resources */,
 				B66FF8E41E30C7A2002716CA /* CustomTableViewCell.xib in Resources */,
 				B60BE6EF1E287C2F006DDB89 /* BaseDrawViewController.xib in Resources */,
+				B620DFC81E4AB64600D3175A /* ScrollViewViewController.xib in Resources */,
 				B66FF8A21E2CBC20002716CA /* DynamicBaseViewController.xib in Resources */,
 				B66FF8AC1E2DBA6E002716CA /* AttachmentViewController.xib in Resources */,
 				B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */,
@@ -401,6 +426,7 @@
 				5E24C6151E10117D00F6FDF4 /* HomeViewController.xib in Resources */,
 				B6B465081E236DFB007D7B62 /* AlertViewAnimationViewController.xib in Resources */,
 				B66FF8DF1E30B428002716CA /* TableViewMenuController.xib in Resources */,
+				B66FF90D1E346268002716CA /* TableViewEditViewController.xib in Resources */,
 				B60BE6EA1E286F27006DDB89 /* Quart2DViewController.xib in Resources */,
 				B60BE6DA1E272257006DDB89 /* KeyAnimationsViewController.xib in Resources */,
 				B60BE6E51E286E62006DDB89 /* MenuViewController.xib in Resources */,
@@ -439,6 +465,7 @@
 				B66FF89C1E2CBC06002716CA /* DynamicViewController.m in Sources */,
 				5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */,
 				B60BE6FC1E28B1D0006DDB89 /* TouchBaseViewController.m in Sources */,
+				B66FF90C1E346267002716CA /* TableViewEditViewController.m in Sources */,
 				5E24C5D51E0ABD9B00F6FDF4 /* ViewController.m in Sources */,
 				5E24C61E1E10239800F6FDF4 /* SpringViewController.m in Sources */,
 				B6B465071E236DFB007D7B62 /* AlertViewAnimationViewController.m in Sources */,
@@ -447,6 +474,7 @@
 				5E24C6141E10117D00F6FDF4 /* HomeViewController.m in Sources */,
 				B60BE6E91E286F27006DDB89 /* Quart2DViewController.m in Sources */,
 				5E24C5CF1E0ABD9B00F6FDF4 /* main.m in Sources */,
+				B620DFC71E4AB64600D3175A /* ScrollViewViewController.m in Sources */,
 				B60BE6DE1E276C8C006DDB89 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

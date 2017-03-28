@@ -29,7 +29,7 @@
     self.imageView.tag = 0;
     [self animation];
     
-    _timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(changeImage) userInfo:nil repeats:YES];
+//    _timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(changeImage) userInfo:nil repeats:YES];
     
 }
 
@@ -69,8 +69,8 @@
 - (void)swipe:(UISwipeGestureRecognizer *)gesture
 {
     CATransition *tran = [[CATransition alloc] init];
-    tran.duration = 0.5;
-    tran.type = kCATransitionFade;
+    tran.duration = 0.25;
+    tran.type = kCATransitionPush;
     
     UIImageView *imageView = (UIImageView *)gesture.view;
     

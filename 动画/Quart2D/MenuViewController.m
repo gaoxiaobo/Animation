@@ -12,6 +12,8 @@
 #import "TouchMenuViewController.h"
 #import "DynamicViewController.h"
 #import "TableViewMenuController.h"
+#import "TableViewEditViewController.h"
+#import "ScrollViewViewController.h"
 @interface MenuViewController () <UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *_menu;
@@ -24,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _menu = @[@"Animation",@"Quart2D",@"Touches",@"UIDynamic",@"tableView"];
+    _menu = @[@"Animation",@"Quart2D",@"Touches",@"UIDynamic",@"TableView",@"TableViewEdit",@"ScrollView"];
 }
 
 
@@ -63,6 +65,12 @@
         [self.navigationController pushViewController:controller animated:YES];
     }else if (indexPath.row == 4) {
         TableViewMenuController *controller = [[TableViewMenuController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 5) {
+        TableViewEditViewController *controller = [[TableViewEditViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 6) {
+        ScrollViewViewController *controller = [[ScrollViewViewController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }
 }
