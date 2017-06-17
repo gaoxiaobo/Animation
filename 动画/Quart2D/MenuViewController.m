@@ -14,6 +14,8 @@
 #import "TableViewMenuController.h"
 #import "TableViewEditViewController.h"
 #import "ScrollViewViewController.h"
+#import "GoogleLoadingViewController.h"
+#import "AssociatedObjectViewController.h"
 @interface MenuViewController () <UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *_menu;
@@ -26,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _menu = @[@"Animation",@"Quart2D",@"Touches",@"UIDynamic",@"TableView",@"TableViewEdit",@"ScrollView"];
+    _menu = @[@"Animation",@"Quart2D",@"Touches",@"UIDynamic",@"TableView",@"TableViewEdit",@"ScrollView",@"googleLoading",@"AssociatedObject"];
 }
 
 
@@ -71,6 +73,12 @@
         [self.navigationController pushViewController:controller animated:YES];
     }else if (indexPath.row == 6) {
         ScrollViewViewController *controller = [[ScrollViewViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 7) {
+        GoogleLoadingViewController *controller = [[GoogleLoadingViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }else if (indexPath.row == 8) {
+        AssociatedObjectViewController *controller = [[AssociatedObjectViewController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }
 }

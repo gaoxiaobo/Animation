@@ -52,6 +52,16 @@
 		B60BE7071E28D189006DDB89 /* RightSwipeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60BE7051E28D189006DDB89 /* RightSwipeMenuViewController.xib */; };
 		B620DFC71E4AB64600D3175A /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B620DFC51E4AB64600D3175A /* ScrollViewViewController.m */; };
 		B620DFC81E4AB64600D3175A /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B620DFC61E4AB64600D3175A /* ScrollViewViewController.xib */; };
+		B62ECE5D1E9F2A13002C8CCC /* GoogleLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE5B1E9F2A13002C8CCC /* GoogleLoadingViewController.m */; };
+		B62ECE5E1E9F2A13002C8CCC /* GoogleLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62ECE5C1E9F2A13002C8CCC /* GoogleLoadingViewController.xib */; };
+		B62ECE6E1E9F2A97002C8CCC /* DaiDrawPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE611E9F2A97002C8CCC /* DaiDrawPathView.m */; };
+		B62ECE6F1E9F2A97002C8CCC /* DaiInboxDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE631E9F2A97002C8CCC /* DaiInboxDisplayLink.m */; };
+		B62ECE701E9F2A97002C8CCC /* DaiInboxHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE651E9F2A97002C8CCC /* DaiInboxHUD.m */; };
+		B62ECE711E9F2A97002C8CCC /* DaiInboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE671E9F2A97002C8CCC /* DaiInboxView.m */; };
+		B62ECE721E9F2A97002C8CCC /* DaiInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE691E9F2A97002C8CCC /* DaiInboxViewController.m */; };
+		B62ECE731E9F2A97002C8CCC /* DaiIndoxWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE6B1E9F2A97002C8CCC /* DaiIndoxWindow.m */; };
+		B62ECE741E9F2A97002C8CCC /* UIColor+MixColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE6D1E9F2A97002C8CCC /* UIColor+MixColor.m */; };
+		B62ECE781E9F5742002C8CCC /* AssociatedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62ECE771E9F5742002C8CCC /* AssociatedObjectViewController.m */; };
 		B66FF89C1E2CBC06002716CA /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF89A1E2CBC06002716CA /* DynamicViewController.m */; };
 		B66FF89D1E2CBC06002716CA /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */; };
 		B66FF8A11E2CBC20002716CA /* DynamicBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FF89F1E2CBC20002716CA /* DynamicBaseViewController.m */; };
@@ -141,6 +151,25 @@
 		B620DFC41E4AB64600D3175A /* ScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
 		B620DFC51E4AB64600D3175A /* ScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
 		B620DFC61E4AB64600D3175A /* ScrollViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
+		B62ECE5A1E9F2A13002C8CCC /* GoogleLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleLoadingViewController.h; sourceTree = "<group>"; };
+		B62ECE5B1E9F2A13002C8CCC /* GoogleLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleLoadingViewController.m; sourceTree = "<group>"; };
+		B62ECE5C1E9F2A13002C8CCC /* GoogleLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleLoadingViewController.xib; sourceTree = "<group>"; };
+		B62ECE601E9F2A97002C8CCC /* DaiDrawPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDrawPathView.h; sourceTree = "<group>"; };
+		B62ECE611E9F2A97002C8CCC /* DaiDrawPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDrawPathView.m; sourceTree = "<group>"; };
+		B62ECE621E9F2A97002C8CCC /* DaiInboxDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiInboxDisplayLink.h; sourceTree = "<group>"; };
+		B62ECE631E9F2A97002C8CCC /* DaiInboxDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiInboxDisplayLink.m; sourceTree = "<group>"; };
+		B62ECE641E9F2A97002C8CCC /* DaiInboxHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiInboxHUD.h; sourceTree = "<group>"; };
+		B62ECE651E9F2A97002C8CCC /* DaiInboxHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiInboxHUD.m; sourceTree = "<group>"; };
+		B62ECE661E9F2A97002C8CCC /* DaiInboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiInboxView.h; sourceTree = "<group>"; };
+		B62ECE671E9F2A97002C8CCC /* DaiInboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiInboxView.m; sourceTree = "<group>"; };
+		B62ECE681E9F2A97002C8CCC /* DaiInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiInboxViewController.h; sourceTree = "<group>"; };
+		B62ECE691E9F2A97002C8CCC /* DaiInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiInboxViewController.m; sourceTree = "<group>"; };
+		B62ECE6A1E9F2A97002C8CCC /* DaiIndoxWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiIndoxWindow.h; sourceTree = "<group>"; };
+		B62ECE6B1E9F2A97002C8CCC /* DaiIndoxWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiIndoxWindow.m; sourceTree = "<group>"; };
+		B62ECE6C1E9F2A97002C8CCC /* UIColor+MixColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MixColor.h"; sourceTree = "<group>"; };
+		B62ECE6D1E9F2A97002C8CCC /* UIColor+MixColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MixColor.m"; sourceTree = "<group>"; };
+		B62ECE761E9F5742002C8CCC /* AssociatedObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedObjectViewController.h; sourceTree = "<group>"; };
+		B62ECE771E9F5742002C8CCC /* AssociatedObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociatedObjectViewController.m; sourceTree = "<group>"; };
 		B66FF8991E2CBC06002716CA /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		B66FF89A1E2CBC06002716CA /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		B66FF89B1E2CBC06002716CA /* DynamicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
@@ -200,6 +229,8 @@
 		5E24C5CC1E0ABD9B00F6FDF4 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				B62ECE751E9F5733002C8CCC /* other */,
+				B62ECE591E9F29E2002C8CCC /* GoogleLoading */,
 				B620DFC31E4AB61B00D3175A /* ScrollView */,
 				B66FF8DA1E30B3DA002716CA /* TableView */,
 				B66FF87F1E2CAEF0002716CA /* UIDynamic */,
@@ -304,6 +335,47 @@
 				B620DFC61E4AB64600D3175A /* ScrollViewViewController.xib */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		B62ECE591E9F29E2002C8CCC /* GoogleLoading */ = {
+			isa = PBXGroup;
+			children = (
+				B62ECE5F1E9F2A97002C8CCC /* DaiInboxHUD */,
+				B62ECE5A1E9F2A13002C8CCC /* GoogleLoadingViewController.h */,
+				B62ECE5B1E9F2A13002C8CCC /* GoogleLoadingViewController.m */,
+				B62ECE5C1E9F2A13002C8CCC /* GoogleLoadingViewController.xib */,
+			);
+			path = GoogleLoading;
+			sourceTree = "<group>";
+		};
+		B62ECE5F1E9F2A97002C8CCC /* DaiInboxHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B62ECE601E9F2A97002C8CCC /* DaiDrawPathView.h */,
+				B62ECE611E9F2A97002C8CCC /* DaiDrawPathView.m */,
+				B62ECE621E9F2A97002C8CCC /* DaiInboxDisplayLink.h */,
+				B62ECE631E9F2A97002C8CCC /* DaiInboxDisplayLink.m */,
+				B62ECE641E9F2A97002C8CCC /* DaiInboxHUD.h */,
+				B62ECE651E9F2A97002C8CCC /* DaiInboxHUD.m */,
+				B62ECE661E9F2A97002C8CCC /* DaiInboxView.h */,
+				B62ECE671E9F2A97002C8CCC /* DaiInboxView.m */,
+				B62ECE681E9F2A97002C8CCC /* DaiInboxViewController.h */,
+				B62ECE691E9F2A97002C8CCC /* DaiInboxViewController.m */,
+				B62ECE6A1E9F2A97002C8CCC /* DaiIndoxWindow.h */,
+				B62ECE6B1E9F2A97002C8CCC /* DaiIndoxWindow.m */,
+				B62ECE6C1E9F2A97002C8CCC /* UIColor+MixColor.h */,
+				B62ECE6D1E9F2A97002C8CCC /* UIColor+MixColor.m */,
+			);
+			path = DaiInboxHUD;
+			sourceTree = "<group>";
+		};
+		B62ECE751E9F5733002C8CCC /* other */ = {
+			isa = PBXGroup;
+			children = (
+				B62ECE761E9F5742002C8CCC /* AssociatedObjectViewController.h */,
+				B62ECE771E9F5742002C8CCC /* AssociatedObjectViewController.m */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 		B66FF87F1E2CAEF0002716CA /* UIDynamic */ = {
@@ -413,6 +485,7 @@
 				5E24C5E81E0AC2E200F6FDF4 /* CABasicAnimationViewController.xib in Resources */,
 				5E24C62E1E155E4A00F6FDF4 /* BaseAnimationViewController.xib in Resources */,
 				B60BE6D51E272169006DDB89 /* AnmationGroupViewController.xib in Resources */,
+				B62ECE5E1E9F2A13002C8CCC /* GoogleLoadingViewController.xib in Resources */,
 				B66FF8E41E30C7A2002716CA /* CustomTableViewCell.xib in Resources */,
 				B60BE6EF1E287C2F006DDB89 /* BaseDrawViewController.xib in Resources */,
 				B620DFC81E4AB64600D3175A /* ScrollViewViewController.xib in Resources */,
@@ -446,6 +519,7 @@
 			files = (
 				B66FF8B01E2DC93A002716CA /* SpringAttachmentViewController.m in Sources */,
 				B66FF8DE1E30B428002716CA /* TableViewMenuController.m in Sources */,
+				B62ECE741E9F2A97002C8CCC /* UIColor+MixColor.m in Sources */,
 				B60BE7061E28D189006DDB89 /* RightSwipeMenuViewController.m in Sources */,
 				B60BE6D41E272169006DDB89 /* AnmationGroupViewController.m in Sources */,
 				5E24C5E71E0AC2E200F6FDF4 /* CABasicAnimationViewController.m in Sources */,
@@ -454,14 +528,19 @@
 				B60BE6E41E286E62006DDB89 /* MenuViewController.m in Sources */,
 				B66FF8E31E30C7A2002716CA /* CustomTableViewCell.m in Sources */,
 				5E24C62D1E155E4A00F6FDF4 /* BaseAnimationViewController.m in Sources */,
+				B62ECE6E1E9F2A97002C8CCC /* DaiDrawPathView.m in Sources */,
 				B60BE6F21E287CC5006DDB89 /* BaseDrawView.m in Sources */,
 				5E24C6321E1FEE9400F6FDF4 /* KeyAnimationViewController.m in Sources */,
 				B60BE6F71E28B116006DDB89 /* TouchMenuViewController.m in Sources */,
+				B62ECE721E9F2A97002C8CCC /* DaiInboxViewController.m in Sources */,
 				B60BE7011E28BDAD006DDB89 /* MultiTouchViewController.m in Sources */,
+				B62ECE731E9F2A97002C8CCC /* DaiIndoxWindow.m in Sources */,
 				B60BE6D91E272257006DDB89 /* KeyAnimationsViewController.m in Sources */,
 				B66FF8A11E2CBC20002716CA /* DynamicBaseViewController.m in Sources */,
+				B62ECE6F1E9F2A97002C8CCC /* DaiInboxDisplayLink.m in Sources */,
 				B60BE6EE1E287C2F006DDB89 /* BaseDrawViewController.m in Sources */,
 				5E24C6231E11671900F6FDF4 /* RotationViewController.m in Sources */,
+				B62ECE711E9F2A97002C8CCC /* DaiInboxView.m in Sources */,
 				B66FF89C1E2CBC06002716CA /* DynamicViewController.m in Sources */,
 				5E24C6281E12B46700F6FDF4 /* HiddenAnimationViewController.m in Sources */,
 				B60BE6FC1E28B1D0006DDB89 /* TouchBaseViewController.m in Sources */,
@@ -472,6 +551,9 @@
 				5E24C5D21E0ABD9B00F6FDF4 /* AppDelegate.m in Sources */,
 				B66FF8AB1E2DBA6E002716CA /* AttachmentViewController.m in Sources */,
 				5E24C6141E10117D00F6FDF4 /* HomeViewController.m in Sources */,
+				B62ECE5D1E9F2A13002C8CCC /* GoogleLoadingViewController.m in Sources */,
+				B62ECE781E9F5742002C8CCC /* AssociatedObjectViewController.m in Sources */,
+				B62ECE701E9F2A97002C8CCC /* DaiInboxHUD.m in Sources */,
 				B60BE6E91E286F27006DDB89 /* Quart2DViewController.m in Sources */,
 				5E24C5CF1E0ABD9B00F6FDF4 /* main.m in Sources */,
 				B620DFC71E4AB64600D3175A /* ScrollViewViewController.m in Sources */,

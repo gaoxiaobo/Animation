@@ -32,7 +32,7 @@
     // 大小
     CABasicAnimation *scale1 = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     scale1.fromValue = @(0);
-    scale1.toValue = @(1.0);
+    scale1.toValue = @(1.5);
     
     // 旋转
     CABasicAnimation *rotationx = [CABasicAnimation animationWithKeyPath:@"transform.rotation.x"];
